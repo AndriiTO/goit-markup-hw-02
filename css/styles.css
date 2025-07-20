@@ -9,8 +9,8 @@ ol {
   margin: 0;
 }
 body {
-  font-family: "Roboto";
-  color: #2e2f42;
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  color: #434455;
 }
 h1 {
   color: #fff;
@@ -33,12 +33,12 @@ h3 {
 }
 p {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
 }
 button {
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
