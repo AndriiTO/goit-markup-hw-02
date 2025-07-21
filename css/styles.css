@@ -5,19 +5,17 @@ a {
 ul,
 ol {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 body {
-  font-family: "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 h1 {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  text-align: center;
 }
 h2 {
   color: #2e2f42;
@@ -42,13 +40,10 @@ button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  text-align: center;
   color: #fff;
   background: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 button:hover,
 button:focus {
@@ -59,21 +54,22 @@ button:focus {
 /*header*/
 header {
   color: #2e2f42;
-  background-color: #e7e9fc;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .logo-part {
-  color: #4d5ae5;
+  color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -84,6 +80,7 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.02em;
 }
 .header-nav-list a:hover,
 .header-nav-list a:focus {
@@ -92,17 +89,23 @@ header {
 .nav-studio:active {
   text-decoration: underline;
 }
-.header-link-list a {
+.adress-list {
+  font-style: normal;
+}
+
+.header-link {
   color: #434455;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
-.header-link-list a:hover,
-.header-link-list a:focus {
+.header-link:hover,
+.header-link:focus {
   color: #404bbf;
 }
-
 /*Effective Solutions*/
 .first-section {
   background-color: #2e2f42;
@@ -113,6 +116,8 @@ header {
   font-weight: 700;
   font-size: 56px;
   text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 /*featur*/
@@ -120,15 +125,18 @@ header {
 }
 .featur-title {
 }
-.featur-list li h3 {
+.strategy-title-list {
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.featur-list li p {
+.strategy-text-list {
   color: #434455;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -138,8 +146,52 @@ header {
 .team {
   background-color: #f4f4fd;
 }
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-list-point {
+  background-color: #ffffff;
+}
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /*portfolio*/
-
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /*footer*/
 footer {
   background-color: #2e2f42;
