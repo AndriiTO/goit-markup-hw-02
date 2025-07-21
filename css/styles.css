@@ -30,10 +30,12 @@ h3 {
   font-size: 20px;
 }
 p {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 button {
   cursor: pointer;
@@ -89,11 +91,11 @@ header {
 .nav-studio:active {
   text-decoration: underline;
 }
-.adress-list {
+.address-list {
   font-style: normal;
 }
 
-.header-link {
+.header-link-point {
   color: #434455;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -102,8 +104,8 @@ header {
   letter-spacing: 0.02em;
   background-color: #ffffff;
 }
-.header-link:hover,
-.header-link:focus {
+.header-link-point:hover,
+.header-link-point:focus {
   color: #404bbf;
 }
 /*Effective Solutions*/
@@ -196,13 +198,20 @@ header {
 footer {
   background-color: #2e2f42;
 }
-.footer-text {
-  color: #f4f4fd;
-}
 .logo-footer {
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-fotter-part {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
